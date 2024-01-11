@@ -1,1 +1,3 @@
 # Bayesian-Association-Rule-Mining-Algorithm
+
+In this report, we have used the Bayesian Association Rule mining algorithm (BAR) which combines the Apriori association rule mining algorithm and Bayesian networks. Out of all the tested algorithms, BAR outputs the best rules according to the Bayesian Confidence (BC) and Bayesian Lift (BL) values. BC and BL are used to quantify the conditional dependence and independence relationships between variables using the joint probabilities given in a Bayesian network. We have tested the accuracy of BAR using the heart disease dataset from the UCI database. We can see that BAR produces the rules with the highest values of confidence, lift and support. 
